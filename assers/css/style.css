@@ -1,0 +1,209 @@
+* {
+	margin: 0; 
+	padding: 0
+}
+body {
+	
+	background-color: #fff;
+    color: #555}
+ }
+
+
+
+input[type="text"], input[type="password"], input[type="search"]
+{
+	color: #5d5d5d;
+	width: 60%;
+	padding: 8px;
+}
+input, textarea {
+	outline: none;
+	border: none;
+	border: solid 1px #f2f2f2;
+}
+h1, h2 {
+	font: normal 170% 'century gothic', arial;
+	margin: 0 0 15px 0;
+	padding: 15px 0 5px 0;
+	color: #000;
+}
+h2 {
+	font-size: 140%;
+
+ }
+
+a, a:hover {
+	outline: none;
+	text-decoration: underline;
+	color: deeppink;
+}
+ul {
+	margin: 2 px 0 22px 17 px;
+}
+
+ul li {
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height: 1.5em;
+}
+
+.header {
+	background-color: hotpink;
+	height: 177px;
+	font-size: 0,8em;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo {
+	width: 880px;
+	padding-bottom: 40 px;
+	color: black;
+}
+.logo h1, .logo h2 {
+	font: normal 300% 'century gothic', arial, sans-serif;
+	margin: 0 0 0 9px;
+}
+.logo_text h1,.logo_text h1 a, .logo_text h1 a: hover; {
+ 	padding: 22px 000: 
+ 	color: black;
+ 	letter-spacing: 0.1em;
+ 	text-decoration: none;
+ }
+ .logo_text h2 {
+ 	font-size: 0,9em;
+ 	padding: 4px 0 0 0;
+ 	color: #111;
+ 	text-align: center;
+ }
+ .menubar {
+    width: 900px;
+    height: 46px;
+}
+
+ul.menu {
+float: right;
+}
+
+ul.menu li {
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+    }
+
+ul.menu li a {
+    font: normal 100% 'trebuchet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.menu li.selected a {
+    color: black;
+}
+
+ul.menu li a:hover {
+    color:darkred;
+}
+.site_content {
+	width: 1200px;
+	overflow: hidden;
+	margin: 30px auto 0 auto;
+	background-color:white;
+	
+	
+}
+.sitebar_container{
+
+	float: right;;
+	width: 100px;
+
+
+
+}
+.sitebar {
+	float: right;
+	width: 222px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: solid 1px #f2f2f2;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+
+	
+
+}
+
+.btn {
+	padding: 8px;
+	background-color: pink;
+	cursor: pointer;
+}
+.sitebar h2 {
+	color: hotpink;
+}
+
+.lavbles_passreg_text {
+	font-size: 0,7em;
+	margin-top: 3%;
+	margin-left: 2%;
+
+}
+.sitebar ul {
+	margin: 0;
+}
+.sitebar ul li {
+	list-style-type: none;
+	margin: 0 0 0 0;
+}
+.sitebar .rating_sitebar {
+	float: right;
+}
+.content {
+	text-align: left;
+	width: 620px;
+	padding: 0 0 0 5px;
+	float: left;
+}
+
+.content a {
+	text-decoration: none;
+}
+.films_block{
+	margin-bottom: 5%;
+}
+.films_block img{
+	border-radius: 5px;
+border: solid 5px #deeppink;
+width: 22%;
+}
+.footer{
+	width: 220%;
+	height: 100px;
+	padding: 28px 0 5px 0;
+	text-align: center;
+	background-color: lightpink;
+	color: black;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+.footer a {
+	color: #deeppink;
+	text-decoration: none;
+}
+.footer a: hover {
+	color: #fff;
+	text-decoration: none;
+}
+.footer p {
+	padding: 0 0 10px 0;
+}
